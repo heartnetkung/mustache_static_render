@@ -4,6 +4,7 @@ const glob = require('glob');
 const mkdirp = require('mkdirp');
 const mustache = require('mustache');
 mustache.tags = ['$$', '$$'];
+mustache.escape = (string) => String(string);
 
 exports.getFiles = function(folder) {
 	return new Promise((res, rej) => {
