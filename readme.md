@@ -7,7 +7,9 @@ Combine static html files with common component such as header and footer using 
 5. It uses $$var$$ directive instead of {{var}} and {{{var}}}
 
 ## Install
+```
 npm install --dev heartnetkung/mustache_static_render
+```
 
 ## Usage
 ```
