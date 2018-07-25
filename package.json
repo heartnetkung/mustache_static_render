@@ -1,6 +1,6 @@
 {
   "name": "mustache_static_render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:heartnetkung/mustache_static_render.git",
   "author": "heartnetkung <heartnetkung@gmail.com>",
@@ -14,6 +14,7 @@
     "jest": "^23.4.1",
     "rimraf": "^2.6.2"
   },
+  "bin":"index.js",
   "scripts": {
     "test": "jest",
     "test_integration": "node index test/test_input test/test_data test/test_output",
